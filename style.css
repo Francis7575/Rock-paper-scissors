@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(243, 42%, 18%);
+    font-family: 'Open Sans', sans-serif;
+}
+
+#headerContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .9rem;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 2rem;
+    font-size: 1.4rem;
+}
+
+.container {
+    gap: 3rem;
+}
+
+.container,
+.user_container,
+.computer_container {
+    display: flex;
+    flex-basis: 33.33%;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    cursor: pointer;
+    border: none;
+    padding: 1rem 1.7rem;
+    border-radius: 7px;
+    font-size: 1.3rem;
+    background-color: darksalmon;
+    color: #fff;
+}
+
+.button:hover {
+    background-color: lightcoral;
+    color: burlywood;
+}
+
+.btns_container {
+    display: flex;
+    gap: 2.5rem;
+    margin-top: 3rem;
+}
+
+.flex_container {
+    max-width: 1440px;
+    display: flex;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+#otherStats,
+#userCounter,
+#computerCounter {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+}
+
+#otherStats {
+    margin-top: 1rem;
+}
+
+#userCounter,
+#computerCounter {
+    margin-top: .5rem;
+}
